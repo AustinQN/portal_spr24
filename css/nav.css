@@ -1,14 +1,16 @@
 /* Global rules */
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: beige; /* Beige background color */
     overflow: auto;
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
 }
 
+/* Rest of the CSS remains the same */
 .topnav a {
     float: left;
     display: block;
-    color: whitesmoke;
+    color: #333; /* Dark gray text color */
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -16,8 +18,9 @@
     font-size: 16px;
 }
 
-.topnav a.hover, .active {
-    background-color: darkcyan;
+.topnav a:hover, .topnav a.active {
+    background-color: #d2b48c; /* Dark khaki hover and active background color */
+    color: #fff; /* White text color on hover and active */
 }
 
 .topnav .icon {
@@ -52,7 +55,6 @@
         top: 0;
     }
 }
-
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
